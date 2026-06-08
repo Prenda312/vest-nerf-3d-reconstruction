@@ -1,5 +1,9 @@
 # Video-to-NeRF 3D Reconstruction of a Vest
 
+Portfolio page: https://prenda312.github.io/Yujie-website/#projects
+
+Project repository: https://github.com/Prenda312/vest-nerf-3d-reconstruction
+
 This project reconstructs a neural 3D representation of a vest from a short monocular video. The workflow extracts frames from the video, estimates camera poses with COLMAP, trains a NeRF model with NVIDIA Instant-NGP, and exports visual slice data for inspection.
 
 The original experiment was developed in `C:\Users\Lenovo\Desktop\P2`. This repository keeps the project lightweight and reproducible by tracking documentation, helper scripts, metadata, and a few representative sample images instead of committing multi-GB reconstruction artifacts.
