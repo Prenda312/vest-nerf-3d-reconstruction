@@ -1,0 +1,34 @@
+# Large source media
+*.mp4
+*.mov
+*.avi
+
+# Reconstruction outputs
+*.ingp
+*.msgpack
+*.exr
+*.bin
+*.db
+*.ply
+*.pt
+*.pth
+
+# Generated datasets and COLMAP workspaces
+data/
+frames/
+colmap_workspace/
+colmap_sparse/
+colmap_text/
+rgba_slices/
+volume_raw/
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Python and OS noise
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
